@@ -19,7 +19,7 @@ def first_challenge
       k.each do |key,val|
         if key == :favorite_icecream_flavors
           key.each do |icecream|
-            delete_if
+            icecream.delete_if
 
   #remember to return your newly altered contacts hash!
   contacts
